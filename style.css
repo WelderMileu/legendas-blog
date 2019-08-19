@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Andada&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    /* width: 1200px; */
+    flex-wrap: wrap;
+}
+
+/*  'Andada', serif;  */
+.title{
+    text-align: center;
+    padding:20px 0px;
+    background-color: #f1f1f1;
+    border-bottom: 2px solid orange;
+}
+
+.title h1{
+    font-family: 'Andada', serif;
+    color:grey;
+    text-transform: uppercase;
+}
+
+.legends{
+    display: flex;
+    padding: 40px
+}
+
+.legends:before{
+    content:'';
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    transform: rotate(30deg) translate(400px, -215px);
+    background-color: #fff;
+}
+
+.legends h1{
+    color:orange;
+}
+
+.legends .img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: right;
+    border-radius:5%;
+    margin-top:10px;
+}
+
+.center img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius:5%;
+    margin-top:10px;
+}
+
+.legends .desc .name{
+    width: 400px;
+    margin:10px;
+    padding: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.legends .desc .prof{
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
